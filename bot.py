@@ -2,7 +2,7 @@ import os
 import telebot
 
 # Prende il token dalla variabile d'ambiente
-TOKEN = os.environ.get("7561299513:AAHnXCVpON1Cv20v3QgP0DaxS5dCdhe6hfE")
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
 
